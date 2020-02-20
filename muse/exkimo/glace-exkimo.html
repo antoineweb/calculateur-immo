@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./style.css" />
-    <title>glaces-exkimo</title>
+    <title>glaces-exkimo 2045 - 11</title>
 </head>
 <div class="body">
 
     <body>
-<h1> Les bonnes Glaces Exkimo sont fait par vrais exkimo d'Alaska</h1>
-<h1> blabla</h1>
+
         <form method="get" enctype="application/x-www-form-urlencoded" action="">
 
             <div class="front-logo">
-                <img id="exkimo-logo" src="exkimo-logo.png" alt="exkimo-logo">
-            </div>
+          <img id="exkimo-logo" src="White Squares Real Estate Logo.png"
 
-            <div class="legend">
-                <legend>Which flavour icecream do you require?</legend>
-            </div>
+            <div class="legend"> </div>
 
             <div class="scoops">
 
-                <p style="font-size: 14px, vet"> Strawberry <br>
-                    <img id="glace-fraise" src="glace-fraise.png" alt="glace-fraise"> <br>
-                    <label for="strawberry"></label> <input id="inputname" type="number" name="icecream" value="0"
-                        min="0" max="10"> </label>
+                <p style="font-size: 14px, vet"> 	
 
+                    <br>Surface <input id="1" type="number" name="1" value="1"
+                        min="0" max="10"> </label><br>
+			<label for="pricem">Initial Cost</label> <input id="2" type="number" name="2" value="1"
+                        min="0" max="10"> </label><br>
+		<label for="pricem">Fees</label> <input id="3" type="number" name="3" value="1"
+                        min="0" max="10"> </label><br>
+	<label for="pricem">rate fees</label><input id="4" type="number" name="4" value="1"
+                        min="0" max="10"> <br>
+	<label for="pricem">Works cost</label><input id="5" type="number" name="5" value="1"
+                        min="0" max="10"> 
 
                 </p>
                 <p style="font-size: 14px,vet"> Banana <br>
@@ -37,15 +40,15 @@
                     <label for="banana"></label> <input id="inputname2" type="number" name="icecream" value="0" min="0"
                         max="10">
                     </label>
-                </p>
+              </p>
 
                 <p style="font-size: 14px,vet"> Blueberry <br>
-                    <img id="glace-myrtille" src="glace-myrtille.png" alt="glace-myrtille"> <br>
+                  <img id="glace-myrtille" src="glace-myrtille.png" alt="glace-myrtille"> <br>
                     <label for="blueberry"></label> <input id="inputname3" type="number" name="icecream" value="0"
                         min="0" max="10"> </label>
                 </p>
 
-            </div>
+          </div>
             <hr>
 
 
@@ -118,27 +121,9 @@
             function showName() {
 
 
-                let nameInput = document.querySelector("#inputname");
-                let nameInputValue = "strawberry" + "=" + nameInput.value;
-                let outName = document.querySelector("#outputname");
-                outName.innerHTML = nameInputValue;
-
-                let nameInput2 = document.querySelector("#inputname2");
-                let nameInput2Value = "banana" + "=" + nameInput2.value;
-                let outName2 = document.querySelector("#outputname2");
-                outName2.innerHTML = nameInput2Value;
-
-                let nameInput3 = document.querySelector("#inputname3");
-                let nameInput3Value = "blueberry" + "=" + nameInput3.value;
-                let outName3 = document.querySelector("#outputname3");
-                outName3.innerHTML = nameInput3Value;
-
-
-                let nameInput4 = document.querySelector("#inputname4");
-                let nameInput4Value = "name" + "=" + nameInput4.value;
-                let outName4 = document.querySelector("#outputname4");
-                outName4.innerHTML = nameInput4Value;
-
+let surface = document.getElementById("1");
+		let cost = document.getElementById("2");
+		let prixparmetrecarre = cost/surface;
 
                 let nameInput5 = document.querySelector("#inputname5");
                 let nameInput5Value = "adress" + "=" + nameInput5.value;
