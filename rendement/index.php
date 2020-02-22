@@ -40,7 +40,7 @@ $rendement=0;
     <script type="application/javascript" src="style/jquery.js"></script>
      <script type="application/javascript" src="style/bootstrap.min.js"></script>
     <script type="application/javascript" src="style/jquery-3.1.min.js"></script>
-    <script type="application/javascript" src="style/printfriendly.js"></script>
+    <script type="application/javascript" src="style/printfriendly.js"> </script>
    
 </head>
 <body class="page-template-default page page-id-907492 page-child" itemscope itemtype="http://schema.org/WebPage">
